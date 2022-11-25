@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-desc {
+  background: #f7fafe;
+  border: 1px solid #ddd;
+  margin: 4px 0;
+  padding: 8px;
+  position: relative;
+}
+.catalog-desc .icon {
+  float: left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.catalog-desc .icon .img {
+  border: 1px solid #ddd;
+}
+.catalog-desc .icon .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.25s ease-out;
+}
+.catalog-desc .description {
+  text-align: justify;
+}
+.catalog-sections {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.catalog-sections .section {
+  background: #f7fafe;
+  border: 1px solid #ddd;
+  padding: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.catalog-sections .section-name {
+  font-size: 14px;
+}
+.catalog-sections .section-icon {
+  text-align: center;
+}
+.catalog-sections .section-icon .img {
+  max-width: 110px;
+  border: 1px solid #ddd;
+  margin: auto;
+}
+.catalog-sections .section-icon .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.25s ease-out;
+}
+.catalog .list-items {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.catalog .list-items .list-item .name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.catalog .list-items .list-item .img {
+  max-width: 218px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+.catalog .list-items .list-item .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.25s ease-out;
+}/*# sourceMappingURL=catalog.css.map */

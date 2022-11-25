@@ -1,0 +1,60 @@
+.main-block {
+  margin-bottom: 55px;
+  padding-top: 181px;
+}
+.main-block .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-block .main {
+  position: relative;
+  width: 100%;
+}
+.main-block .main-section {
+  margin-bottom: 15px;
+}
+.main-block .main-section_content .imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-block .main-section_content .imgs .img {
+  padding: 5px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.main-block .main-section_content .imgs .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.25s ease-out;
+}
+.main-block .main-section_content .info-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-block .main-section_content .info-item {
+  padding: 5px;
+  width: 50%;
+}
+.main-block .main-section_content .info-item .h2 {
+  text-align: center;
+}
+.main-block .main-section_content .info-item .img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.main-block .main-section_content .info-item .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.25s ease-out;
+}
+.main-block .main-section_content .info-item nav li a {
+  font-size: 13px;
+}/*# sourceMappingURL=main.css.map */

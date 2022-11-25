@@ -1,0 +1,86 @@
+.row{
+		display: flex;
+		flex-wrap: wrap;	
+	}
+
+    .catalog{
+        &-desc{
+            background: #f7fafe;
+            border: 1px solid #ddd;
+            margin: 4px 0;
+            padding: 8px;
+            position:relative;
+            .icon{
+                float:left; /* Выравнивание по левому краю */
+                margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+                .img{
+                    border: 1px solid #ddd;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        transition: all .25s ease-out;
+                    }
+                }
+            }
+            .description{
+                text-align: justify;
+            }
+        }
+
+        &-sections{
+            display: grid;
+            margin-top: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            .section{
+                background: #f7fafe;
+                border: 1px solid #ddd;
+                padding: 8px;
+                position:relative;
+                display: flex;
+                flex-direction: column;
+                &-name{
+                    font-size: 14px;
+                }
+                &-icon{
+                    text-align: center;
+                    .img{
+                    max-width: 110px;
+                    border: 1px solid #ddd;
+                    margin: auto;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        transition: all .25s ease-out;
+                    }
+                }
+                }
+                
+            }
+        }
+
+        .list-items{
+            display: grid;
+            margin-top: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+
+            .list-item{
+                .name{
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+                .img{
+                    max-width: 218px;
+                    padding: 5px;
+                    border: 1px solid #ddd; 
+                    margin-bottom: 5px;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        transition: all .25s ease-out;
+                    }
+                }
+            }
+        }
+    }

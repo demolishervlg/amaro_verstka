@@ -25,6 +25,10 @@
      object-fit: cover;
   transition: all 0.25s ease-out;
 }
+.catalog-item_picture .img:hover {
+  border: 1px solid rgb(47, 47, 47);
+  transition: all 0.45s ease-out !important;
+}
 .catalog-item_price {
   margin-bottom: 10px;
 }

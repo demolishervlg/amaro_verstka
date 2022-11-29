@@ -14242,6 +14242,10 @@ header .logo-wrap .logo img, header .logo-wrap .logo svg {
   font-family: "Cuprum", Arial, Helvetica, sans-serif;
   background-color: #484747;
 }
+.header-menu .nav-item:hover {
+  background-color: #363333;
+  transition: all 0.45s ease-out !important;
+}
 .header-menu a {
   padding: 0 15px;
   margin: 0;
@@ -14298,9 +14302,12 @@ header .logo-wrap .logo img, header .logo-wrap .logo svg {
   padding: unset;
 }
 .header-feedback a {
-  color: red;
+  color: #ff0000;
   font-weight: 400;
   font-size: 16px;
+}
+.header-feedback a:hover {
+  color: #ba0303;
 }
 
 .header-social-icons {
@@ -14326,6 +14333,9 @@ header .logo-wrap .logo img, header .logo-wrap .logo svg {
   color: black;
   font-size: 18px;
 }
+.header-phones a:hover {
+  color: #757474;
+}
 
 .header-infoRight {
   display: flex;
@@ -14338,10 +14348,16 @@ header .logo-wrap .logo img, header .logo-wrap .logo svg {
   font-size: 25px;
   color: black;
 }
+.header-infoRight .phone a:hover {
+  color: #757474;
+}
 .header-infoRight .popUp a {
   font-size: 16px;
   color: red;
   font-weight: bold;
+}
+.header-infoRight .popUp a:hover {
+  color: #ba0303;
 }
 
 .mobimenu {
@@ -14931,6 +14947,9 @@ footer {
   border-bottom: 1px solid rgba(129, 129, 129, 0);
   color: #818181;
 }
+.breadcrumbs .breadcrumbs-items a:hover {
+  color: rgb(30, 40, 65);
+}
 .breadcrumbs .breadcrumbs-items .breadcrumbs-item:not(:last-child)::after {
   content: "—";
   position: absolute;
@@ -15232,6 +15251,9 @@ h4, .h4 {
   font-family: "Cuprum", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+.sidebar .sidebar-section ul li a:hover {
+  color: rgb(47, 47, 47);
+}
 
 .sidebar-right {
   font-family: "Cuprum", Arial, Helvetica, sans-serif;
@@ -15270,6 +15292,9 @@ h4, .h4 {
   color: #999;
   font-family: "Cuprum", Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+.sidebar-right .sidebar-section ul li a:hover {
+  color: rgb(47, 47, 47);
 }
 
 @media (max-width: 1399.98px) {

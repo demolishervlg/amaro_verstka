@@ -33,6 +33,12 @@ header {
 .header-menu{
 	font-family: 'Cuprum',Arial,Helvetica,sans-serif;
 	background-color: #484747;
+
+	.nav-item:hover{
+		background-color: #363333;
+		transition:all .45s ease-out !important;
+	}
+
 	a{
 		padding: 0 15px;
 		margin: 0;
@@ -88,9 +94,13 @@ header {
 		padding: unset;
 	}
 	a{
-		color: red;
+		color: #ff0000;
 		font-weight: 400;
 		font-size: 16px;
+	}
+
+	a:hover{
+		color: #ba0303;
 	}
 
 	
@@ -117,6 +127,10 @@ header {
 		color: black;
 		font-size: 18px;
 	}
+
+	a:hover{
+		color: #757474;
+	}
 }
 .header-infoRight {
 	display:flex;
@@ -129,10 +143,19 @@ header {
 		font-size: 25px;
 		color: black;
 	}
+
+	.phone a:hover{
+		color: #757474;
+	}
+
 	.popUp a{
 		font-size: 16px;
 		color: red;
 		font-weight: bold;
+	}
+
+	.popUp a:hover{
+		color: #ba0303;
 	}
 
 }
